@@ -1,0 +1,5 @@
+int pts[] = primpoints(0, @primnum);
+for(int p = 0; p < len(pts); p++){
+  float val = chramp("tightness", p / (leng(pts) - 1.0));
+  setpointattrib(0, "tightness", pts[p], val);
+}
